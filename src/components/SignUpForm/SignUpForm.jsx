@@ -47,7 +47,7 @@ const SignUpForm = () => {
         <div className={`${isSubmit ? 'flex' : 'hidden'}`}>
             <div className="fixed top-0 w-full h-screen bg-purple-700 flex flex-col justify-center items-center px-5">
                 <div className="w-full md:w-4/5 lg:w-1/2 p-10 bg-purple-300 space-y-3 rounded-xl">
-                    <h1 className=" text-center font-bold text-2xl md:text-3xl mb-6 text-purple-700">Submitted The Form Successfully</h1>
+                    <h1 className=" text-center font-bold text-2xl md:text-3xl mb-6 text-purple-700">The Form Submitted Successfully</h1>
                     <p className="text-center text-xl font-semibold">Name: <small>{name}</small></p>
                     <p className="text-center text-xl font-semibold">Email: <small>{email}</small></p>
                     <p className="text-center text-xl font-semibold">Password: <small>{password}</small></p>
